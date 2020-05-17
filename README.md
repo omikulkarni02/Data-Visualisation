@@ -37,33 +37,3 @@ As the aim of my visualization assignment was to show the trend of accidents in 
 •	Then these 3 dataframes were joined using pandas ‘concat’ command
 
 •	Bubbles size showed the count of accidents in that state 
-
-# Visualisation 
-# I.	Choropleth Map
-•	Data contains accident information which is spread across every state in United States, hence to determine total accident cases in each state Choropleth map was used to visualize this information
-
-•	Red colour scale was used as the information contained accident data
-
-•	Lower the accident rate, faint the shade and higher the accident rate, dark the shade
-
-•	Map was constructed using plotly library 
-
-
-# II.	Time Series Graph
-•	As the data of accidents was collected from 2016 to early 2019, plotting time series helped us to understand how the accident rate has increased year by year
-
-•	Dividing the data into month wise shows which month had most occurrence of accidents
-
-•	Each year is represented as a line graph and is differentiated by distinct colours
-
-•	Plotly’s graph_obj library was used to plot this graph
-
-
-# III.	Animated Bubble Plot 
-•	This animated bubble plot shows how accident in every state has grown year by year
-
-•	Each bubble represent distinct states and they are differentiated by colour coding
-
-•	Size of bubble depends on the number of accidents; hence the size of bubble increases as the number of accidents in that state increase.
-
-•	X axis denotes the frequency of accidents by state and Y axis has total accident frequency
